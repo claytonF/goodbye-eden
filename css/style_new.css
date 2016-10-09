@@ -1,0 +1,149 @@
+/* Responsive Full Background Image Using CSS
+ * Tutorial URL: http://sixrevisions.com/css/responsive-background-image/
+*/
+body {
+  
+  
+  padding:0px;
+  margin:0px;
+  font-family: 'Gill Sans light';
+  font-size:1.2em;
+  line-height:1.8em;
+  background-color: #313131
+
+}
+a {
+  color:#36a2b9;
+}
+a.dark-link {
+  color:#277687;
+}
+
+#home {
+
+  background: url(../images/background_v2.png) no-repeat;
+  width:383px;
+  height:750px;
+  margin:auto;
+
+  background-color: #313131
+  
+}
+nav {
+  display: block;
+  width:383px;
+  margin: 0 auto 40px auto;
+  overflow: hidden;
+}
+nav ul {
+  list-style:none;
+  padding-left:0px;
+
+}
+nav ul li {
+  float:left;
+  margin-right:20px;
+}
+a:hover {
+  color:#ff376a;
+}
+nav ul li:nth-child(3n) {
+  float:right;
+  margin-right:0px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+#content {
+  width:100%;
+  padding:20px 0;
+  background: #fff;
+
+}
+#content section {
+  box-sizing:border-box;
+}
+
+.chapterNumber {
+  font-size:2.5em;
+  line-height: 2em;
+  font-weight: normal;
+  margin: 0px;
+}
+#about, #timeline {
+  background-color: #fff;
+}
+#intro {
+  background-color: #f2f2f2;
+}
+
+#synopsis, #getInvolved {
+
+  color:#fff;
+}
+
+#timeline {
+  padding: 20px 0px 100px 0px;
+}
+
+#read {
+  text-align: center;
+  color:#fff;
+}
+
+
+
+.chapter {
+  margin:auto;
+  background-color: #fff;
+  padding:0px 20%;
+}
+.chapter p {
+  position: relative;
+}
+
+.text-padding {
+  max-width:480pt;
+  margin:auto;
+}
+.portrait {
+  border-radius:500px;
+  width:150px;
+  height:150px;
+}
+#cj {
+  background: url(../images/cjmaybery.jpeg) no-repeat center center;
+  background-size:150px 150px;
+  float:left;
+  margin: 1.4em 20px 20px 0;
+}
+.divider {
+  text-align: center;
+}
+ .download {
+  background:url(../images/cherry.png) no-repeat left top;
+  max-width:480pt;
+  padding: 10px;
+  margin:10px auto 0 auto;
+
+  text-align: center;
+  color: #fff;
+  box-sizing:border-box;
+}
+.download a {
+  color: #fff
+}
+.download p {
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin:0px 20%;
+}
+
+.anchor {
+  position: absolute;
+  top:0px;
+  left:-40px;
+
+}
+
